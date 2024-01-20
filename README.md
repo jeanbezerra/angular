@@ -13,6 +13,9 @@ npm install -g @angular/cli
 ```sh
 ng new project-name --minimal=true --routing=true --style=scss --ssr=true
 ```
+```sh
+ng analytics disable
+```
 
 ```sh
 cd project-name
