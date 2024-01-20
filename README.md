@@ -31,3 +31,17 @@ ng serve --open
 npm install primeng
 npm install primeng primeicons primeflex --save
 ```
+
+Na pasta principal do projeto, dentro do arquivo 'angular.json' (linha 56)
+```sh
+"styles": [
+  "src/styles.scss",
+  "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+  "node_modules/primeng/resources/primeng.min.css"
+],
+```
+Na pasta 'src', no arquivo 'styles.scss'
+```sh
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+```
