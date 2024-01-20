@@ -24,3 +24,10 @@ cd project-name
 ```sh
 ng serve --open
 ```
+
+## PrimeNG
+
+```sh
+npm install primeng
+npm install primeng primeicons primeflex --save
+```
