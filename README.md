@@ -22,8 +22,15 @@ ng new project-name --standalone=true --minimal=true --routing=true --style=scss
 ng analytics disable
 ```
 
+Gerando componentes dentro de uma pasta especifica, para melhorar a organização e otimizar as rotas de navegação com base em um objetivo claro
 ```sh
-ng generate component site --inline-template=false --inline-style=false --style=scss
+ng generate component site/home --inline-template=false --inline-style=false --style=scss
+ng generate component site/about --inline-template=false --inline-style=false --style=scss
+ng generate component site/services --inline-template=false --inline-style=false --style=scss
+ng generate component site/contact --inline-template=false --inline-style=false --style=scss
+```
+
+```sh
 ng generate component signup --inline-template=false --inline-style=false --style=scss
 ng generate component signin --inline-template=false --inline-style=false --style=scss
 ng generate component home --inline-template=false --inline-style=false --style=scss
