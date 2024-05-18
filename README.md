@@ -23,11 +23,11 @@ ng analytics disable
 ```
 
 ```sh
-ng generate component site --inline-template=false --inline-style=false --style=scss --routing=true
-ng generate component signup --inline-template=false --inline-style=false --style=scss --routing=true
-ng generate component signin --inline-template=false --inline-style=false --style=scss --routing=true
-ng generate component home --inline-template=false --inline-style=false --style=scss --routing=true
-ng generate component account --inline-template=false --inline-style=false --style=scss --routing=true
+ng generate component site --inline-template=false --inline-style=false --style=scss
+ng generate component signup --inline-template=false --inline-style=false --style=scss
+ng generate component signin --inline-template=false --inline-style=false --style=scss
+ng generate component home --inline-template=false --inline-style=false --style=scss
+ng generate component account --inline-template=false --inline-style=false --style=scss
 ```
 
 ```sh
