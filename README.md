@@ -108,3 +108,14 @@ Na pasta 'src', no arquivo 'styles.scss'
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 ```
+
+
+# Rodando localmente, aberto para o público local
+
+## Access same network
+```sh
+ng serve --host 0.0.0.0 --port 4200 --disable-host-check
+```
+```sh
+ng serve --host 192.168.15.110 --port 4200 --disable-host-check
+```
