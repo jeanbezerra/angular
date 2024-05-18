@@ -67,6 +67,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 export class AppModule { }
 ```
 
+## Step 3: Gestures (Gestos) - by HammerJS
+
+```sh
+npm install --save hammerjs
+```
 
 ## PrimeNG
 
