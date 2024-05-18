@@ -70,11 +70,13 @@ export class AppModule { }
 
 ## PrimeNG
 
+## Step 1:
 ```sh
 npm install primeng
 npm install primeng primeicons primeflex --save
 ```
 
+## Step 2:
 Na pasta principal do projeto, dentro do arquivo 'angular.json' (linha 56)
 ```sh
 "styles": [
@@ -83,6 +85,8 @@ Na pasta principal do projeto, dentro do arquivo 'angular.json' (linha 56)
   "node_modules/primeng/resources/primeng.min.css"
 ],
 ```
+
+## Step 3:
 Na pasta 'src', no arquivo 'styles.scss'
 ```sh
 @import "primeng/resources/themes/lara-light-blue/theme.css";
