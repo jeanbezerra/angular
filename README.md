@@ -10,8 +10,13 @@ npm install -g @angular/cli
 
 ## Criando novos projetos
 
+Este gera o projeto com o recurso de módulos
 ```sh
-ng new project-name --minimal=true --routing=true --style=scss --ssr=true --directory .
+ng new project-name --standalone=false --minimal=true --routing=true --style=scss --ssr=true --directory .
+```
+Este não gera o projeto com o recurso de módulos
+```sh
+ng new project-name --standalone=false --minimal=true --routing=true --style=scss --ssr=true --directory .
 ```
 ```sh
 ng new project-name --routing=true --style=scss --ssr=true --directory .
