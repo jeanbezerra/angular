@@ -1,4 +1,4 @@
-# angular
+# Angular
 
 ## Setup
 ```sh
@@ -29,7 +29,10 @@ ng generate component site/about --inline-template=false --inline-style=false --
 ng generate component site/services --inline-template=false --inline-style=false --style=scss
 ng generate component site/contact --inline-template=false --inline-style=false --style=scss
 ```
-
+Gerando um layout padronizado para todas as páginas
+```sh
+ng generate component site/layout --inline-template=false --inline-style=false --style=scss
+```
 ```sh
 ng generate component signup --inline-template=false --inline-style=false --style=scss
 ng generate component signin --inline-template=false --inline-style=false --style=scss
