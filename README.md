@@ -19,14 +19,15 @@ Este não gera o projeto com o recurso de módulos
 ng new project-name --standalone=true --minimal=true --routing=true --style=scss --ssr=true --directory .
 ```
 ```sh
-ng new project-name --routing=true --style=scss --ssr=true --directory .
-```
-```sh
 ng analytics disable
 ```
 
 ```sh
-cd project-name
+ng generate component site --inline-template=false --inline-style=false --style=scss --routing=true
+ng generate component signup --inline-template=false --inline-style=false --style=scss --routing=true
+ng generate component signin --inline-template=false --inline-style=false --style=scss --routing=true
+ng generate component home --inline-template=false --inline-style=false --style=scss --routing=true
+ng generate component account --inline-template=false --inline-style=false --style=scss --routing=true
 ```
 
 ```sh
