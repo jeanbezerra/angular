@@ -93,7 +93,6 @@ npm install --save hammerjs
 
 ## Step 1:
 ```sh
-npm install primeng
 npm install primeng primeicons primeflex --save
 ```
 
@@ -112,6 +111,7 @@ Na pasta 'src', no arquivo 'styles.scss'
 ```sh
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
 ```
 
 
