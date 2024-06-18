@@ -47,6 +47,11 @@ ng serve --open
 ## Angular Material (Mobile)
 
 ## Step 1:
+
+```sh
+ng add @angular/material
+```
+
 ```sh
 npm install --save @angular/material @angular/cdk @angular/animations
 ```
