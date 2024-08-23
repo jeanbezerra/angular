@@ -25,9 +25,24 @@ ng analytics disable
 Gerando componentes dentro de uma pasta especifica, para melhorar a organização e otimizar as rotas de navegação com base em um objetivo claro
 ```sh
 ng generate component site/home --inline-template=false --inline-style=false --style=scss
+ng generate service site/home/home
+ng generate module site/home --module app --flat=false
+
 ng generate component site/about --inline-template=false --inline-style=false --style=scss
+ng generate service site/about/about
+ng generate module site/about --module app --flat=false
+
 ng generate component site/services --inline-template=false --inline-style=false --style=scss
+ng generate service site/services/services
+ng generate module site/services --module app --flat=false
+
 ng generate component site/contact --inline-template=false --inline-style=false --style=scss
+ng generate service site/contact/contact
+ng generate module site/contact --module app --flat=false
+
+ng generate component site/partners --inline-template=false --inline-style=false --style=scss
+ng generate service site/partners/partners
+ng generate module site/partners --module app --flat=false
 ```
 Gerando um layout padronizado para todas as páginas
 ```sh
