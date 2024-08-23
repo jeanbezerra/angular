@@ -121,13 +121,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 export class AppModule { }
 ```
 
-## Step 3: Gestures (Gestos) - by HammerJS
+## Step 3: Gestures by HammerJS (Gestos)
 
 ```sh
 npm install --save hammerjs
 ```
 
-## PrimeNG
+# PrimeNG
 
 ## Step 1:
 ```sh
@@ -153,12 +153,14 @@ Na pasta 'src', no arquivo 'styles.scss'
 ```
 
 
-# Rodando localmente, aberto para o público local
+# Rodar o projeto
 
-## Access same network
+## Rodar o projeto para o público geral
 ```sh
 ng serve --host 0.0.0.0 --port 4200 --disable-host-check
 ```
+
+## Rodar o projeto para a rede local
 ```sh
 ng serve --host 192.168.15.110 --port 4200 --disable-host-check
 ```
