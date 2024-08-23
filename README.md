@@ -22,7 +22,7 @@ ng new project-name --standalone=true --minimal=true --routing=true --style=scss
 ng analytics disable
 ```
 
-Gerando componentes dentro de uma pasta especifica, para melhorar a organização e otimizar as rotas de navegação com base em um objetivo claro
+## Gerando componentes dentro de uma pasta especifica, para melhorar a organização e otimizar as rotas de navegação com base em um objetivo claro
 ```sh
 ng generate component site/home --inline-template=false --inline-style=false --style=scss
 ng generate service site/home/home
@@ -44,7 +44,30 @@ ng generate component site/partners --inline-template=false --inline-style=false
 ng generate service site/partners/partners
 ng generate module site/partners --module app --flat=false
 ```
-Gerando um layout padronizado para todas as páginas
+## Roteamento dos componentes
+
+```typescript
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './site/home/home.component';
+
+const routes: Routes = [
+  { path: 'home', component: HomeComponent }, // Rota para o ContactComponent
+  { path: '', redirectTo: '/home', pathMatch: 'full' },  // Redireciona a rota base para 'home'
+  { path: '**', redirectTo: '/home', pathMatch: 'full' }  // Redireciona qualquer rota não correspondida para 'home'
+
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
+
+
+## Gerando um layout padronizado para todas as páginas
 ```sh
 ng generate component site/layout --inline-template=false --inline-style=false --style=scss
 ```
