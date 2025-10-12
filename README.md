@@ -22,18 +22,18 @@ ng new project-name --standalone=true --minimal=true --routing=true --style=scss
 `NEW - Angular 20+`
 ```powershell
 ng new project-name `
-    --standalone=true `
-    --minimal=true `
-    --routing=true `
-    --style=scss `
-    --inline-style=false `
-    --inline-template=false `
-    --package-manager=npm `
-    --strict=true `
-    --ssr=true `
-	--zoneless=false `
-	--ai-config=none `
-    --directory .
+     --standalone=true `
+     --minimal=true `
+     --routing=true `
+     --style=scss `
+     --inline-style=false `
+     --inline-template=false `
+     --package-manager=npm `
+     --strict=true `
+     --ssr=true `
+     --zoneless=false `
+     --ai-config=none `
+     --directory .
 ```
 
 ```sh
