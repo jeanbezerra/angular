@@ -132,6 +132,7 @@ npm install --save hammerjs
 ## Step 1:
 ```sh
 npm install primeng primeicons primeflex --save
+npm install primeng @primeuix/themes --save
 ```
 
 ## Step 2:
