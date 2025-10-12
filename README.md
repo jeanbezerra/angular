@@ -18,6 +18,24 @@ Este não gera o projeto com o recurso de módulos
 ```sh
 ng new project-name --standalone=true --minimal=true --routing=true --style=scss --ssr=true --directory .
 ```
+
+`NEW - Angular 20+`
+```powershell
+ng new project-name `
+    --standalone=true `
+    --minimal=true `
+    --routing=true `
+    --style=scss `
+    --inline-style=false `
+    --inline-template=false `
+    --package-manager=npm `
+    --strict=true `
+    --ssr=true `
+	--zoneless=false `
+	--ai-config=none `
+    --directory .
+```
+
 ```sh
 ng analytics disable
 ```
